@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fff;
+  overflow: auto;
+}
+body #main .border {
+  padding:20px;
+  background: #fff;
+  border-radius: 20%;
+  opacity: 80%;
+}
+body #main .frame {
+  display: block;
+  height: auto;
+  margin: auto;
+  width: 90%;
+  margin-inline: auto;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 1px 1px 4px #000, -1px -1px 6px #000;
+  font-family: 'Indie Flower', cursive;
+}
+table tr {
+  border: thin solid rgba(0, 0, 0, 1);
+}
